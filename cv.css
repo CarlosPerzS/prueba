@@ -5,8 +5,9 @@ body{
     font-family: 'Outfit', sans-serif;
 }
 button{
-    background-color: rgb(58, 58, 172) !important;
+    background-color: rgb(72, 72, 177) !important;
     border: none !important;
+    font-size: 20px !important;
 }
 .primera-hoja{
     display: flex;
@@ -16,14 +17,39 @@ button{
 }
 .segunda-hoja {
     height: 100vh;
+    flex-direction: row;
     display: flex;
     align-items: center;  
     justify-content: center;  
 }
+.tercera-hoja {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.cuarta-hoja{
+    height: 100vh;
+}
+.carousel {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+.columna {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
 
 .menu{
     gap: 30px;
-    background-color: rgb(142, 96, 180);
+    background-color: rgb(200, 154, 236);
     width: auto;
     height: auto;
     max-height: fit-content;
@@ -61,8 +87,8 @@ button{
     height: auto;
     width: auto;
     background-color: rgb(200, 154, 236);
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
+    margin-top: 20px;
 }
 .correo{
     height: 60px;
